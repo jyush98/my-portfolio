@@ -1,6 +1,6 @@
 import React from "react";
 
-const Resume: React.FC = () => {
+const Experience: React.FC = () => {
   return (
     <section>
         <p>Resume</p>
@@ -8,4 +8,4 @@ const Resume: React.FC = () => {
   );
 };
 
-export default Resume;
+export default Experience;

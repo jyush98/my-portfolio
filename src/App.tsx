@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
-import ResumeStory from "./pages/Resume";
+import Experience from "./pages/Experience";
 import ArticlesFeed from "./pages/Feed";
 import NavBar from "./components/NavBar";
 
@@ -15,7 +15,7 @@ const App: React.FC = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/resume-story" element={<ResumeStory />} />
+          <Route path="/experience" element={<Experience />} />
           <Route path="/articles" element={<ArticlesFeed />} />
         </Routes>
       </div>
