@@ -1,0 +1,51 @@
+.navbar {
+  width: 100%; /* Full width of the screen */
+  background-color: #1B1F3A; /* Dark blue background */
+  padding: 25px 0; /* Padding for spacing */
+  display: flex; /* Use flexbox for alignment */
+  justify-content: center; /* Center the items horizontally */
+  top: 0; /* Position at the top of the screen */
+  left: 0; /* Align to the left edge */
+  z-index: 1000; /* Ensure it stays above other content */
+}
+  
+  .navbar-list {
+    list-style: none; /* Remove bullet points */
+    display: flex; /* Arrange items in a row */
+    gap: 30px; /* Add spacing between items */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
+
+  .navbar-list li {
+    font-size: 20px; /* Font size for links */
+  }
+
+  .navbar-list li a {
+    text-decoration: none; /* Remove underline */
+    color: #FFFFFF; /* White text */
+    padding: 8px 16px; /* Add padding for better click area */
+    border-radius: 4px; /* Optional: Rounded edges for hover effect */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+  }
+
+  nav a:hover {
+    color: #00aeef;
+  }
+
+  .text-orange-hover a:hover {
+    color: rgb(255 125 69);
+  }
+
+  .text-yellow-hover a:hover {
+    color: rgb(255 217 102);
+  }
+
+  .text-green-hover a:hover {
+    color: rgb(33 194 155);
+  }
+
+  .text-purple-hover a:hover {
+    color: rgb(223 96 255);
+  }
+
