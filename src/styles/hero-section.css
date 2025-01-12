@@ -4,14 +4,32 @@
     gap: 20px; /* Space between grid items */
     background-color: #1B1F3A; /* Match background color */
     color: #FFFFFF; /* Default font color */
-    margin-top: 100px; /* Add margin equal to navbar height */
     padding: 40px 0; /* Padding for the hero section */
 }
 
-#hero-container {
-    margin-top: 0px;
-    padding: 40px 0px;
-}
+.hero-decorations {
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(3, 1fr); /* 3 columns for the decoration area */
+    grid-template-rows: repeat(10, 1fr); /* 10 rows for spreading symbols */
+    gap: 10px; /* Space between grid cells */
+    height: 100%; /* Fill the height of the section */
+    color: #D3D3D3; /* Light gray color for the symbols */
+    font-family: "monospace"; /* Monospaced font for coding feel */
+    font-size: 20px; /* Adjust the symbol size */
+  }
+  
+  .hero-decorations span {
+    grid-column: span 1; /* Each symbol occupies one cell */
+    justify-self: center; /* Center horizontally in the cell */
+    align-self: center; /* Center vertically in the cell */
+    opacity: 0.7; /* Slightly faded look */
+  }
+  
+  .hero-decorations span:nth-child(even) {
+    opacity: 0.5; /* Add variation to symbol opacity */
+  }
+  
+
 
 .hero-content {
     grid-column: span 3 / span 3; /* Content takes up columns 7-9 */

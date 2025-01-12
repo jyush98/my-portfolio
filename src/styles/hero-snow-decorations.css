@@ -1,0 +1,49 @@
+.hero-snow-decorations {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    pointer-events: none; /* Prevent interaction with snowflakes */
+    z-index: 1; /* Place it above the background but below other elements */
+  }
+  
+  .snowflake {
+    position: absolute;
+    top: -10%; /* Start above the viewport */
+    color: gray;
+    opacity: 0; /* Start invisible */
+    animation: fall 10s linear infinite, fade 10s ease-in-out infinite, rotate 5s linear infinite;
+  }
+  
+  /* Falling animation */
+  @keyframes fall {
+    0% {
+      top: -10%; /* Start above */
+    }
+    100% {
+      top: 110%; /* End below the viewport */
+    }
+  }
+  
+  /* Fading animation */
+  @keyframes fade {
+    0%, 100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  
+  /* Rotating animation */
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  

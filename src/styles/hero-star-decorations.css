@@ -1,0 +1,39 @@
+.hero-star-decorations {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-template-rows: repeat(3, 1fr); /* 3 rows */
+    gap: 20px; /* Space between the cells */
+    width: 25vw; /* Restrict width to 3 columns */
+    height: 100%; /* Fill the height of the hero section */
+    pointer-events: none; /* Prevent interaction with stars */
+    z-index: 1; /* Place behind content but above background */
+  }
+  
+  /* Each star is randomly placed within a cell */
+  .star {
+    position: relative;
+    color: #d3d3d3; /* Light gray color for the stars */
+    opacity: 0.7; /* Slightly faded for a starry look */
+    font-family: "monospace"; /* Monospaced font for the star symbols */
+    animation: rotateStar 8s linear infinite; /* Continuous rotation */
+    justify-self: center; /* Center horizontally in the cell */
+    align-self: center; /* Center vertically in the cell */
+  }
+  
+  /* Rotating animation */
+  @keyframes rotateStar {
+    0% {
+      transform: rotate(0deg) scale(1);
+      opacity: 0.7;
+    }
+    50% {
+      transform: rotate(180deg) scale(1.2); /* Slight scaling effect */
+      opacity: 1; /* Brighten in the middle */
+    }
+    100% {
+      transform: rotate(360deg) scale(1);
+      opacity: 0.7;
+    }
+  }
+  
