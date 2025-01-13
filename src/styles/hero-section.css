@@ -17,24 +17,23 @@
     font-family: "monospace"; /* Monospaced font for coding feel */
     font-size: 20px; /* Adjust the symbol size */
   }
-  
+
   .hero-decorations span {
     grid-column: span 1; /* Each symbol occupies one cell */
     justify-self: center; /* Center horizontally in the cell */
     align-self: center; /* Center vertically in the cell */
     opacity: 0.7; /* Slightly faded look */
   }
-  
+
   .hero-decorations span:nth-child(even) {
     opacity: 0.5; /* Add variation to symbol opacity */
   }
-  
-
 
 .hero-content {
     grid-column: span 3 / span 3; /* Content takes up columns 7-9 */
-    grid-column-start: 2;
+    grid-column-start: 1;
     max-width: 660px;
+    padding-left: 50px;
 }
 
 .profile-image-container {
@@ -98,3 +97,11 @@
 .icon:hover {
     color: #00AEEF; /* Light blue hover color */
 }
+
+.hero-section .hero-content {
+    grid-column: span 4
+  }
+
+  .hero-section .technologies-section {
+    grid-column: span 7
+  }

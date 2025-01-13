@@ -1,7 +1,8 @@
  /* Technologies Section */
   .technologies-section {
-    grid-column: span 6; /* Occupies 6 columns */
+    grid-column: span 8; /* Occupies 6 columns */
     text-align: center; /* Center align the section */
+
   }
   
   .technologies-heading {
@@ -12,7 +13,7 @@
   
   .technologies-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 icons per row */
+    grid-template-columns: repeat(6, 1fr); /* 4 icons per row */
     gap: 20px; /* Spacing between items */
   }
   

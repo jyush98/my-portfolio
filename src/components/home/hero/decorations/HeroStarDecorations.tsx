@@ -1,5 +1,5 @@
 import React from "react";
-import "../../../styles/hero-star-decorations.css";
+import "../../../../styles/hero-star-decorations.css";
 
 
 const symbols = ["*", "+", "x", "#"]; // Optional: Use different "star-like" symbols
