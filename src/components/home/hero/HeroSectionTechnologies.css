@@ -1,0 +1,41 @@
+ /* Technologies Section */
+  .technologies-section {
+    grid-column: span 6; /* Occupies 6 columns */
+    text-align: center; /* Center align the section */
+  }
+  
+  .technologies-heading {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .technologies-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 icons per row */
+    gap: 20px; /* Spacing between items */
+  }
+  
+  .technology-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .technology-icon {
+    font-size: 70px; /* Adjust this size as needed */
+    color: #D3D3D3; /* Light gray color for icons */
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .technology-icon:hover {
+    color: #00AEEF; /* Light blue on hover */
+  }
+  .technology-name {
+    font-size: 14px;
+    color: #D3D3D3; /* Light gray text */
+  }
+  

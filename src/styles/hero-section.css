@@ -33,7 +33,7 @@
 
 .hero-content {
     grid-column: span 3 / span 3; /* Content takes up columns 7-9 */
-    grid-column-start: 7;
+    grid-column-start: 2;
     max-width: 660px;
 }
 
@@ -55,7 +55,7 @@
 }
 
 .hero-heading {
-    font-size: 36px; /* Reduce size by 25% (if original was 48px) */
+    font-size: 32px;
     color: #FFFFFF; /* White font color */
     font-weight: 400;
     margin-bottom: 0;
@@ -63,7 +63,7 @@
 
 .hero-subheading {
     margin-top: 5px;
-    font-size: 21px; /* Reduce size by 40% (if original was 36px) */
+    font-size: 21px;
     color: #00AEEF;
 }
 

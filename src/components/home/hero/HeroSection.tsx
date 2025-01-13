@@ -1,21 +1,24 @@
 import React from "react";
-import ProfileImage from "./ProfileImage";
+// import ProfileImage from "./ProfileImage";
 import HeroContent from "./HeroContent";
 import "../../../styles/hero-section.css"
-// import HeroDecorations from "./HeroDecorations";
-// import HeroSnowDecorations from "./HeroSnowDecorations";
-// import HeroStarDecorations from "./HeroStarDecorations";
-// import AsciiArtAnimation from "./AsciiArtAnimation";
+import HeroSectionTechnologies from "./HeroSectionTechnologies";
 
 const HeroSection: React.FC = () => {
     return (
-        <div className="hero-section" id="hero-container">
+        <div className="hero-section">
+
+
             {/* <div style={{ gridColumn: "1 / span 3" }}>
                 <HeroStarDecorations />
             </div> */}
-            <ProfileImage />
-            {/* <AsciiArtAnimation/> */}
+
+
+            {/* <ProfileImage /> */}
             <HeroContent />
+            <HeroSectionTechnologies/>
+
+
             {/* <div style={{ gridColumn: "10 / span 3" }}>
                 <HeroStarDecorations />
             </div> */}

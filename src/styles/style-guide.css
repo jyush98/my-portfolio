@@ -5,9 +5,17 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #F5F5F5;
+    background-color: #D3D3D3;
     color: #4A4A4A;
     width: 100vw;
+  }
+
+  .home-container {
+    background-color: #1B1F3A;
+  }
+
+  .experience-header {
+    padding-left: 50px;
   }
 
   /* Typography */

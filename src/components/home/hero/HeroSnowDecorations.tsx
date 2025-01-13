@@ -2,7 +2,7 @@ import React from "react";
 import "../../../styles/hero-snow-decorations.css";
 
 const HeroSnowDecorations: React.FC = () => {
-    const snowflakes = Array.from({ length: 15 }); // Create 15 snowflakes
+    const snowflakes = Array.from({ length: 30 }); // Create 15 snowflakes
   
     return (
       <div className="hero-snow-decorations">

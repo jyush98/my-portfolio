@@ -3,7 +3,7 @@
     background-color: #1b1f3a; /* Light background for contrast */
     color: #D3D3D3;
   }
-  
+
   .experience-section-heading {
     font-size: 32px;
     font-weight: 600;
@@ -11,10 +11,9 @@
     margin-bottom: 40px;
     color: #ffffff;
   }
-  
+
   .experience-section-cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
-    gap: 50px; /* Space between cards */
+    gap: 80px; /* Space between cards */
   }
-  
