@@ -1,0 +1,45 @@
+.footer {
+    background-color: #1B1F3A; /* Dark blue background */
+    color: #FFFFFF; /* White text color */
+    padding: 20px 0;
+    text-align: center; /* Center align the content */
+    border-top: 2px solid #00AEEF; /* Optional border for separation */
+  }
+  
+  .footer-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 10px 0; /* Add space below the list */
+    display: flex;
+    justify-content: center; /* Center align the links */
+    gap: 30px; /* Space between links */
+  }
+  
+  .footer-list li a {
+    text-decoration: none; /* Remove underline */
+    color: #FFFFFF; /* White text */
+    transition: color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .text-orange-hover a:hover {
+    color: rgb(255, 125, 69); /* Orange hover effect */
+  }
+  
+  .text-yellow-hover a:hover {
+    color: rgb(255, 217, 102); /* Yellow hover effect */
+  }
+  
+  .text-green-hover a:hover {
+    color: rgb(33, 194, 155); /* Green hover effect */
+  }
+  
+  .text-purple-hover a:hover {
+    color: rgb(223, 96, 255); /* Purple hover effect */
+  }
+  
+  .footer-credit {
+    font-size: 14px;
+    color: #D3D3D3; /* Light gray for less emphasis */
+    margin-top: 20px;
+  }
+  

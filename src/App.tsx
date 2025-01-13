@@ -5,6 +5,7 @@ import Projects from "./pages/Projects";
 import Experience from "./pages/Experience";
 import ArticlesFeed from "./pages/Feed";
 import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 
 
 const App: React.FC = () => {
@@ -18,6 +19,7 @@ const App: React.FC = () => {
           <Route path="/experience" element={<Experience />} />
           <Route path="/articles" element={<ArticlesFeed />} />
         </Routes>
+        <Footer/>
       </div>
     </Router>
   );

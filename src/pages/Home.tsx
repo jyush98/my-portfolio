@@ -1,6 +1,5 @@
 import React from "react";
 import HeroSection from "../components/home/hero/HeroSection";
-import ExperienceSection from "../components/home/experience/ExperienceSection";
 import HomeExperience from "../components/home/HomeExperience";
 
 const Home: React.FC = () => {
@@ -9,7 +8,6 @@ const Home: React.FC = () => {
     <section className="home-container">
         <HeroSection/>
         <HomeExperience/>
-        <ExperienceSection/>
     </section>
   );
 };

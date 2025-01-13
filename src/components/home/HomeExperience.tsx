@@ -4,12 +4,12 @@ import HomeSection from "./HomeSection";
 const HomeExperience: React.FC = () => {
   const sections = [
     {
-      heading: "/about me",
+      heading: "/professional",
       blurb: "I am a FullStack Software Engineer with a passion for creating scalable, efficient, and user-friendly applications. I thrive in collaborative environments and enjoy tackling complex problems.",
       color: "orange"
     },
     {
-      heading: "/about me",
+      heading: "/project",
       blurb: "I am a FullStack Software Engineer with a passion for creating scalable, efficient, and user-friendly applications. I thrive in collaborative environments and enjoy tackling complex problems.",
       color: "yellow"
     },

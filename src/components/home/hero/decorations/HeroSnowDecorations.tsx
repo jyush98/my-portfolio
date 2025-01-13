@@ -1,9 +1,9 @@
 import React from "react";
-import "../../../../styles/hero-snow-decorations.css";
+import "./HeroSnowDecorations.css";
 
 const HeroSnowDecorations: React.FC = () => {
     const snowflakes = Array.from({ length: 30 }); // Create 15 snowflakes
-  
+
     return (
       <div className="hero-snow-decorations">
         {snowflakes.map((_, index) => {
@@ -11,7 +11,7 @@ const HeroSnowDecorations: React.FC = () => {
           const position = isLeft
             ? Math.random() * 25 // For left columns
             : 75 + Math.random() * 25; // For right columns
-  
+
           return (
             <div
               key={index}

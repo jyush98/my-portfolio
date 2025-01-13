@@ -2,7 +2,6 @@
   .technologies-section {
     grid-column: span 8; /* Occupies 6 columns */
     text-align: center; /* Center align the section */
-
   }
   
   .technologies-heading {
