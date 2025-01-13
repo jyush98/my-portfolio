@@ -20,7 +20,7 @@
   }
   
   .home-section-blurb {
-    grid-column: span 8; /* Blurb takes up 8 columns */
+    grid-column: span 7; /* Blurb takes up 7 columns */
     text-align: left; /* Left-align text */
   }
   

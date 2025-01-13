@@ -6,12 +6,14 @@ import Experience from "./pages/Experience";
 import ArticlesFeed from "./pages/Feed";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
+import CursorGlow from "./components/CursorGlow";
 
 
 const App: React.FC = () => {
   return (
     <Router>
       <div>
+      <CursorGlow/>
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />

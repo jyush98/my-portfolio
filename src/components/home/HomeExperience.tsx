@@ -5,17 +5,17 @@ const HomeExperience: React.FC = () => {
   const sections = [
     {
       heading: "/professional",
-      blurb: "I am a FullStack Software Engineer with a passion for creating scalable, efficient, and user-friendly applications. I thrive in collaborative environments and enjoy tackling complex problems.",
+      blurb: "I am a FullStack Software Engineer with a passion for creating scalable, efficient, and user-friendly applications. I thrive in collaborative environments and enjoy tackling complex problems. I am a FullStack Software Engineer with a passion for creating scalable, efficient, and user-friendly applications. I thrive in collaborative environments and enjoy tackling complex problems.I am a FullStack Software Engineer with a passion for creating scalable, efficient, and user-friendly applications. I thrive in collaborative environments and enjoy tackling complex problems.",
       color: "orange"
     },
     {
       heading: "/project",
-      blurb: "I am a FullStack Software Engineer with a passion for creating scalable, efficient, and user-friendly applications. I thrive in collaborative environments and enjoy tackling complex problems.",
+      blurb: "I am a FullStack Software Engineer with a passion for creating scalable, efficient, and user-friendly applications. I thrive in collaborative environments and enjoy tackling complex problems. I am a FullStack Software Engineer with a passion for creating scalable, efficient, and user-friendly applications. I thrive in collaborative environments and enjoy tackling complex problems.I am a FullStack Software Engineer with a passion for creating scalable, efficient, and user-friendly applications. I thrive in collaborative environments and enjoy tackling complex problems.",
       color: "yellow"
     },
     {
       heading: "/about me",
-      blurb: "I am a FullStack Software Engineer with a passion for creating scalable, efficient, and user-friendly applications. I thrive in collaborative environments and enjoy tackling complex problems.",
+      blurb: "I am a FullStack Software Engineer with a passion for creating scalable, efficient, and user-friendly applications. I thrive in collaborative environments and enjoy tackling complex problems. I am a FullStack Software Engineer with a passion for creating scalable, efficient, and user-friendly applications. I thrive in collaborative environments and enjoy tackling complex problems.I am a FullStack Software Engineer with a passion for creating scalable, efficient, and user-friendly applications. I thrive in collaborative environments and enjoy tackling complex problems.",
       color: "green"
     },
   ];
