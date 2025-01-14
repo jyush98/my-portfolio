@@ -5,36 +5,31 @@ import NavIconLinks from "../components/home/hero/NavIconLinks";
 import NavBar from "../components/NavBar";
 import HeroSectionTechnologies from "../components/home/hero/HeroSectionTechnologies";
 import Experience from "../components/home/experience/Experience";
+import Projects from "../components/home/project/Projects";
 
 const HomeV2: React.FC = () => {
   return (
     <div className="home-container dark-backgrounnd">
 
       <div className="left-column dark-background">
-        <HeroContent/>
-        <NavBar/>
-        <NavIconLinks/>
+        <HeroContent />
+        <NavBar />
+        <NavIconLinks />
       </div>
 
       {/* Right Side */}
       <div className="right-column dark-background">
         <div id="technologies" className="section">
           <h2 className="figtree-heading">Technologies</h2>
-          <HeroSectionTechnologies/>
+          <HeroSectionTechnologies />
         </div>
         <div id="experience" className="section">
           <h2 className="figtree-heading">Experience</h2>
-          <Experience/>
+          <Experience />
         </div>
         <div id="projects" className="section">
           <h2 className="figtree-heading">Projects</h2>
-          <p>Content coming soon...</p>
-          <p>Content coming soon...</p>
-          <p>Content coming soon...</p>
-          <p>Content coming soon...</p>
-          <p>Content coming soon...</p>
-          <p>Content coming soon...</p>
-          <p>Content coming soon...</p>
+          <Projects />
         </div>
       </div>
     </div>

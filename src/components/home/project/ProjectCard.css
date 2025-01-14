@@ -1,0 +1,78 @@
+/* Wrapper for the whole card */
+.project-card {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: transparent; /* Default transparent background */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .project-card:hover {
+    background-color:  rgb(223, 96, 255, .05); /* Background changes on hover */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Optional shadow effect */
+  }
+  
+  /* Left column: Date/Details */
+  .project-card-date {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #D3D3D3; /* Neutral color for the date */
+  }
+  
+  /* Right column: Content */
+  .project-card-content {
+    padding-left: 1rem;
+    color: #D3D3D3;
+  }
+  
+  .project-card-title {
+    margin: 0;
+    font-weight: 600;
+    transition: color 0.3s ease;
+    color: #ffffff;
+  }
+  
+  .project-card-description {
+    margin-top: 0.5rem;
+    font-size: .8rem;
+    color: #D3D3D3;;
+    transition: color 0.3s ease;
+  }
+  
+  .project-card:hover .project-card-title {
+    color: rgb(0, 174, 239); /* Blue for title on hover */
+  }
+  
+  /* Technologies section */
+  .project-card-technologies {
+    margin-top: 0.5rem;
+  }
+  
+  .project-tech {
+    display: inline-block;
+    margin-right: 0.5rem;
+    padding: 0.2rem 0.5rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    font-size: 0.9rem;
+    color: #D3D3D3;
+  }
+  
+  /* Project link */
+  .project-link {
+    margin-top: 1rem;
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 174, 239);
+    font-weight: bold;
+  }
+  
+  .project-link:hover {
+    text-decoration: underline;
+  }
+  
