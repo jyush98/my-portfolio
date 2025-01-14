@@ -1,0 +1,53 @@
+/* Wrapper for the whole card */
+.resume-card {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: transparent; /* Default transparent background */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .resume-card:hover {
+    background-color:  rgb(223, 96, 255, .05); /* Background changes on hover */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Optional shadow effect */
+  }
+  
+  /* Left column: Date */
+  .resume-card-date {
+    display: flex;
+    align-items: flex-start; /* Align date to the top */
+    justify-content: flex-start;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #D3D3D3; /* Neutral color for the date */
+  }
+  
+  /* Right column: Title, Company, Experience */
+  .resume-card-content {
+    padding-left: 1rem;
+    color: #D3D3D3;
+  }
+  
+  .resume-card-title,
+  .resume-card-company {
+    margin: 0;
+    font-weight: 600;
+    transition: color 0.3s ease; /* Smooth color transition */
+  }
+  
+  /* Title color changes on hover */
+  .resume-card:hover .resume-card-title {
+    color: rgb(0, 174, 239); /* Blue for title on hover */
+  }
+  
+  .resume-card:hover .resume-card-company {
+    color: rgb(0, 174, 239); /* Light blue for company on hover */
+  }
+  
+  .resume-card-description {
+    margin-top: 0.5rem;
+    font-size: .8rem;
+  }
+  

@@ -4,6 +4,7 @@ import HeroContent from "../components/home/hero/HeroContent";
 import NavIconLinks from "../components/home/hero/NavIconLinks";
 import NavBar from "../components/NavBar";
 import HeroSectionTechnologies from "../components/home/hero/HeroSectionTechnologies";
+import Experience from "../components/home/experience/Experience";
 
 const HomeV2: React.FC = () => {
   return (
@@ -18,21 +19,15 @@ const HomeV2: React.FC = () => {
       {/* Right Side */}
       <div className="right-column dark-background">
         <div id="technologies" className="section">
-          <h2 className="hero-heading figtree-heading top-heading">Technologies</h2>
+          <h2 className="figtree-heading">Technologies</h2>
           <HeroSectionTechnologies/>
         </div>
         <div id="experience" className="section">
-          <h2 className="hero-heading figtree-heading">Experience</h2>
-          <p>Content coming soon...</p>
-          <p>Content coming soon...</p>
-          <p>Content coming soon...</p>
-          <p>Content coming soon...</p>
-          <p>Content coming soon...</p>
-          <p>Content coming soon...</p>
-          <p>Content coming soon...</p>
+          <h2 className="figtree-heading">Experience</h2>
+          <Experience/>
         </div>
         <div id="projects" className="section">
-          <h2 className="hero-heading figtree-heading">Projects</h2>
+          <h2 className="figtree-heading">Projects</h2>
           <p>Content coming soon...</p>
           <p>Content coming soon...</p>
           <p>Content coming soon...</p>

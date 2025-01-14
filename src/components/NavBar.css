@@ -26,19 +26,18 @@
     color: #00aeef;
   }
 
-  .text-orange-hover a:hover {
+  .text-orange-hover a:hover, .text-orange-hover.active a {
     color: rgb(255 125 69);
   }
 
-  .text-yellow-hover a:hover {
+  .text-yellow-hover a:hover, .text-yellow-hover.active a {
     color: rgb(255 217 102);
   }
 
-  .text-green-hover a:hover {
+  .text-green-hover a:hover, .text-green-hover.active a {
     color: rgb(33 194 155);
   }
 
-  .text-purple-hover a:hover {
+  .text-purple-hover a:hover, .text-purple-hover.active a {
     color: rgb(223 96 255);
   }
-
