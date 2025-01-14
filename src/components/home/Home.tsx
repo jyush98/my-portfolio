@@ -1,16 +1,15 @@
 import React from "react";
-import "../styles/Home.css";
-import HeroContent from "../components/home/hero/HeroContent";
-import NavIconLinks from "../components/home/hero/NavIconLinks";
-import NavBar from "../components/NavBar";
-import HeroSectionTechnologies from "../components/home/hero/HeroSectionTechnologies";
-import Experience from "../components/home/experience/Experience";
-import Projects from "../components/home/project/Projects";
+import "./Home.css";
+import HeroContent from "./hero/HeroContent";
+import NavIconLinks from "./hero/NavIconLinks";
+import NavBar from "../NavBar";
+import Technologies from "./technologies/Technologies";
+import Experience from "./experience/Experience";
+import Projects from "./projects/Projects";
 
 const HomeV2: React.FC = () => {
   return (
     <div className="home-container dark-backgrounnd">
-
       <div className="left-column dark-background">
         <HeroContent />
         <NavBar />
@@ -21,7 +20,7 @@ const HomeV2: React.FC = () => {
       <div className="right-column dark-background">
         <div id="technologies" className="section">
           <h2 className="figtree-heading">Technologies</h2>
-          <HeroSectionTechnologies />
+          <Technologies />
         </div>
         <div id="experience" className="section">
           <h2 className="figtree-heading">Experience</h2>

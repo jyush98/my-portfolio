@@ -1,5 +1,5 @@
 import React from "react";
-import "./HeroSectionTechnologies.css";
+import "./Technologies.css";
 
 const technologies = [
     { name: "React", iconClass: "fab fa-react" },
@@ -11,7 +11,7 @@ const technologies = [
     { name: "Docker", iconClass: "fab fa-docker" },
 ];
 
-const HeroSectionTechnologies: React.FC = () => {
+const Technologies: React.FC = () => {
     return (
         <div className="technologies-section">
             <div className="technologies-grid">
@@ -26,4 +26,4 @@ const HeroSectionTechnologies: React.FC = () => {
     );
 };
 
-export default HeroSectionTechnologies;
+export default Technologies;
