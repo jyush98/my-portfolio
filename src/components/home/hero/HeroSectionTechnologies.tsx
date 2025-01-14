@@ -14,7 +14,6 @@ const technologies = [
 const HeroSectionTechnologies: React.FC = () => {
     return (
         <div className="technologies-section">
-            <h2 className="technologies-heading">Technologies I Use</h2>
             <div className="technologies-grid">
                 {technologies.map((tech) => (
                     <div key={tech.name} className="technology-card">

@@ -10,41 +10,11 @@ body {
     width: 100vw;
   }
 
-  .home-container {
-    background-color: #1B1F3A;
-  }
-
   .experience-header {
     padding-left: 50px;
   }
 
   /* Typography */
-  h1 {
-    font-family: 'Inter', sans-serif;
-    font-size: 48px;
-    font-weight: 700;
-    color: #1B1F3A;
-  }
-
-  h2 {
-    font-family: 'Inter', sans-serif;
-    font-size: 36px;
-    font-weight: 700;
-    color: #1B1F3A;
-  }
-
-  h3 {
-    font-family: 'Inter', sans-serif;
-    font-size: 24px;
-    font-weight: 700;
-    color: #1B1F3A;
-  }
-
-  p {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.6;
-  }
 
   small {
     font-size: 12px;
@@ -165,86 +135,86 @@ body {
     font-weight: 100;
     font-style: normal;
   }
-  
+
   .ibm-plex-mono-extralight {
     font-family: "IBM Plex Mono", serif;
     font-weight: 200;
     font-style: normal;
   }
-  
+
   .ibm-plex-mono-light {
     font-family: "IBM Plex Mono", serif;
     font-weight: 300;
     font-style: normal;
   }
-  
+
   .ibm-plex-mono-regular {
     font-family: "IBM Plex Mono", serif;
     font-weight: 400;
     font-style: normal;
   }
-  
+
   .ibm-plex-mono-medium {
     font-family: "IBM Plex Mono", serif;
     font-weight: 500;
     font-style: normal;
   }
-  
+
   .ibm-plex-mono-semibold {
     font-family: "IBM Plex Mono", serif;
     font-weight: 600;
     font-style: normal;
   }
-  
+
   .ibm-plex-mono-bold {
     font-family: "IBM Plex Mono", serif;
     font-weight: 700;
     font-style: normal;
   }
-  
+
   .ibm-plex-mono-thin-italic {
     font-family: "IBM Plex Mono", serif;
     font-weight: 100;
     font-style: italic;
   }
-  
+
   .ibm-plex-mono-extralight-italic {
     font-family: "IBM Plex Mono", serif;
     font-weight: 200;
     font-style: italic;
   }
-  
+
   .ibm-plex-mono-light-italic {
     font-family: "IBM Plex Mono", serif;
     font-weight: 300;
     font-style: italic;
   }
-  
+
   .ibm-plex-mono-regular-italic {
     font-family: "IBM Plex Mono", serif;
     font-weight: 400;
     font-style: italic;
   }
-  
+
   .ibm-plex-mono-medium-italic {
     font-family: "IBM Plex Mono", serif;
     font-weight: 500;
     font-style: italic;
   }
-  
+
   .ibm-plex-mono-semibold-italic {
     font-family: "IBM Plex Mono", serif;
     font-weight: 600;
     font-style: italic;
   }
-  
+
   .ibm-plex-mono-bold-italic {
     font-family: "IBM Plex Mono", serif;
     font-weight: 700;
     font-style: italic;
   }
 
-  .text-yellow {
+.text-yellow {
     color: rgb(255 217 102);
 }
 
@@ -262,4 +232,33 @@ body {
 
 .text-blue {
     color: rgb(0, 174, 239);
+}
+
+.dark-background {
+  background-color: #1B1F3A;
+}
+
+.light-background {
+  background-color: #D3D3D3;
+}
+
+/* Example for regular style */
+.figtree-heading {
+  font-family: "Figtree", serif; /* Use Figtree as the primary font */
+  font-optical-sizing: auto; /* Ensures automatic glyph scaling */
+  font-weight: 700; /* Choose a font weight (e.g., 300 to 900) */
+  font-style: normal; /* Normal style (no italics) */
+}
+
+/* Example for a lightweight body text */
+.figtree-body {
+  font-family: "Figtree", serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* Medium weight */
+  font-style: normal;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
 }

@@ -1,6 +1,6 @@
  /* Technologies Section */
   .technologies-section {
-    grid-column: span 8; /* Occupies 6 columns */
+    grid-column: span 8;
     text-align: center; /* Center align the section */
   }
   
@@ -12,8 +12,8 @@
   
   .technologies-grid {
     display: grid;
-    grid-template-columns: repeat(6, 1fr); /* 4 icons per row */
-    gap: 20px; /* Spacing between items */
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px; /* Spacing between items */
   }
   
   .technology-card {
@@ -22,6 +22,9 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    width: 100%; /* Ensures card takes full width of its column */
+    height: 150px; /* Fixed height for all cards */
+    max-width: 60px;
   }
   
   .technology-icon {

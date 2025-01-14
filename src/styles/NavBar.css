@@ -1,0 +1,44 @@
+.navbar {
+  display: flex;
+  flex-direction: column; /* Vertically stack links */
+  gap: 1rem; /* Adds spacing between links */
+  margin: auto 0; /* Center the links vertically */
+}
+
+.navbar-list {
+  list-style: none; /* Remove bullet points */
+  gap: 30px; /* Add spacing between items */
+  padding-left: 0px;
+}
+
+  .navbar-list li {
+    font-size: 16px; /* Font size for links */
+    margin: 30px 0px;
+  }
+
+  .navbar-list li a {
+    text-decoration: none; /* Remove underline */
+    color: #D3D3D3; /* White text */
+    padding: 8px 8px; /* Add padding for better click area */
+  }
+
+  nav a:hover {
+    color: #00aeef;
+  }
+
+  .text-orange-hover a:hover {
+    color: rgb(255 125 69);
+  }
+
+  .text-yellow-hover a:hover {
+    color: rgb(255 217 102);
+  }
+
+  .text-green-hover a:hover {
+    color: rgb(33 194 155);
+  }
+
+  .text-purple-hover a:hover {
+    color: rgb(223 96 255);
+  }
+

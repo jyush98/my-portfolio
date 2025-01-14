@@ -1,9 +1,10 @@
 import React from "react";
+import HomeV2 from "./HomeV2";
 
 const Projects: React.FC = () => {
   return (
     <section>
-        <p>Projects</p>
+        <HomeV2/>
     </section>
   );
 };
