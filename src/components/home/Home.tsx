@@ -9,7 +9,7 @@ import Projects from "./projects/Projects";
 
 const HomeV2: React.FC = () => {
   return (
-    <div className="home-container dark-backgrounnd">
+    <div className="home-container dark-background">
       <div className="left-column dark-background">
         <HeroContent />
         <NavBar />
