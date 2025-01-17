@@ -12,6 +12,7 @@ const Experience: React.FC = () => {
           title={experience.title}
           company={experience.company}
           description={experience.description}
+          technologies={experience.technologies}
         />
       ))}
     </section>

@@ -2,6 +2,10 @@ import React from "react";
 import "./Technologies.css";
 
 const technologies = [
+    { name: "Java", iconClass: "fab fa-java" },
+    { name: "Python", iconClass: "fab fa-python" },
+    { name: "GoLang", iconClass: "fab fa-golang" },
+    { name: "SQL", iconClass: "fa-solid fa-database" },
     { name: "React", iconClass: "fab fa-react" },
     { name: "JavaScript", iconClass: "fab fa-js" },
     { name: "Node.js", iconClass: "fab fa-node-js" },

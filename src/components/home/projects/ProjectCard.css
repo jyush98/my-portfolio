@@ -48,21 +48,6 @@
     color: rgb(0, 174, 239); /* Blue for title on hover */
   }
   
-  /* Technologies section */
-  .project-card-technologies {
-    margin-top: 0.5rem;
-  }
-  
-  .project-tech {
-    display: inline-block;
-    margin-right: 0.5rem;
-    padding: 0.2rem 0.5rem;
-    background-color: rgba(0, 0, 0, 0.1);
-    border-radius: 4px;
-    font-size: 0.9rem;
-    color: #D3D3D3;
-  }
-  
   /* Project link */
   .project-link {
     margin-top: 1rem;

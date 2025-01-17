@@ -5,10 +5,11 @@ interface ResumeExperienceCardProps {
     date: string;
     title: string;
     company: string;
-    description: [];
+    description: string[];
+    technologies: string[];
 }
 
-const ResumeExperienceCard: React.FC<ResumeExperienceCardProps> = ({ date, title, company, description }) => {
+const ResumeExperienceCard: React.FC<ResumeExperienceCardProps> = ({ date, title, company, description, technologies }) => {
     return (
         <div className="resume-card">
             {/* Left Column: Date */}
@@ -24,6 +25,13 @@ const ResumeExperienceCard: React.FC<ResumeExperienceCardProps> = ({ date, title
                         <li key={index}>{item}</li>
                     ))}
                 </ul>
+                <div className="card-technologies">
+                    {technologies && technologies.map((tech, index) => (
+                        <span key={index} className="experience-tech">
+                            {tech}
+                        </span>
+                    ))}
+                </div>
             </div>
         </div>
     );

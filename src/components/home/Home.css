@@ -85,3 +85,24 @@ html {
     margin-top: 0px;
     color: #FFFFFF;
 }
+
+/* Technologies section */
+.card-technologies {
+  margin-top: 0.5rem;
+}
+
+.experience-tech {
+  display: inline-block;
+  margin-right: 0.5rem;
+  padding: 0.2rem 0.5rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  font-size: 0.9rem;
+  color: #D3D3D3;
+}
+
+.project-card:hover .experience-tech,
+.resume-card:hover .experience-tech {
+  color: #00AEEF;
+  background-color: rgba(0, 0, 0, 0.3);
+}

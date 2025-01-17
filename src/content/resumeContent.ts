@@ -4,11 +4,13 @@ export const resumeExperiences = [
     title: "Co-Founder",
     date: "May 2023 - Present",
     description: [
-      "Designed and launched an e-commerce website that boosted online sales by 35%",
-      "Improved processes supply chain and inventory management processes, cutting lead times by 20% and enhancing product availability",
-      "Executed targeted Instagram campaigns leveraging audience insights and engagement analytics to grow followers by 15% and boost interaction rates by 25% over six months, elevating brand awareness and engagement",
-
+      "Designed and launched an e-commerce website, resulting in a 35% increase in online sales, streamlining the purchasing process",
+      "Implemented automated solutions for inventory tracking and order management, streamlining workflows and reducing manual errors reducing lead times by 20%",
+      "Managed backend infrastructure for the site, utilizing cloud platforms and services to ensure reliability, and scalability",
+      "Built and maintained APIs for product catalogs, user profiles, and order management, integrating with third-party systems to enhance website functionality",
+      "Led the adoption of data analytics tools like Google Analytics, enabling actionable insights into customer behavior",
     ],
+    technologies: ["TypeScript", "Vite", "MySQL", "Djano", "React"],
   },
   {
     company: "QVT Financial LP",
@@ -21,6 +23,7 @@ export const resumeExperiences = [
       "Spearheaded the planning and integration of new application features based on user feedback, reducing time spent on these applications by 20%",
       "Developed a toolkit 20 Excel functions written in C# yielding a 40% reduction in analysis time and enhancing overall data accuracy for financial reports",
     ],
+    technologies: ["C#", "ASP.NET Core", "React",]
   },
   {
     company: "Better Mortgage",
@@ -32,5 +35,6 @@ export const resumeExperiences = [
       "Led and Organized bi-weekly demo sessions for 25+ team members, sharing insights on new tools and advancements, fostering a culture of collaboration and continuous improvement",
       "Served as Marketplace Goalie; identifying and rectifying bugs impacting customer loan accessibility",
     ],
+    technologies: ["Python", "GoLang", "PostgreSQL",]
   },
 ];
