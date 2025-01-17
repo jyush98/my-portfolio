@@ -74,9 +74,10 @@ html {
 
 .hero-about {
     margin-top: 20px;
-    font-size: 18px;
+    font-size: .9rem;
     color: #D3D3D3;
-    line-height: 130%;
+    line-height: 140%;
+    letter-spacing: 0.065em;
 }
 
 .right-column h2 {
