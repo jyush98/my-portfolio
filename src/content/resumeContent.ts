@@ -35,6 +35,6 @@ export const resumeExperiences = [
       "Led and Organized bi-weekly demo sessions for 25+ team members, sharing insights on new tools and advancements, fostering a culture of collaboration and continuous improvement",
       "Served as Marketplace Goalie; identifying and rectifying bugs impacting customer loan accessibility",
     ],
-    technologies: ["Python", "GoLang", "PostgreSQL",]
+    technologies: ["Python", "GoLang", "PostgreSQL", "Docker"]
   },
 ];
