@@ -51,3 +51,19 @@
     font-size: .8rem;
   }
   
+  .bulleted-list {
+    list-style-type: none; /* Remove default bullets */
+    padding-left: 20px; /* Add some space for custom bullets */
+  }
+  
+  .bulleted-list li::before {
+    content: "*"; /* Custom bullet character */
+    font-size: 24px;
+    color: #D3D3D3; /* Custom color */
+    margin-right: 10px; /* Space between bullet and text */
+  }
+
+  li {
+    margin-top: 0.5rem;
+    font-size: .8rem;
+  }
