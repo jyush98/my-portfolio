@@ -1,34 +1,34 @@
 export const projects = [
     {
-      title: "Personal Portfolio Website",
+      title: "Little Lemon Capstone Project",
       date: "Jan 2023 - Mar 2023",
       description:
-        "Designed and developed a responsive personal portfolio website using React, showcasing projects, blog posts, and contact information. Integrated GitHub API to display real-time repository updates and used TypeScript for improved maintainability and type safety.",
-      technologies: ["React", "TypeScript", "CSS"],
-      projectLink: "https://myportfolio.com",
+        "Developed a fully functional front-end website as the final capstone project, utilizing HTML, CSS, and JavaScript to create a dynamic and responsive user interface.",
+      technologies: ["React", "JavaScript", "CSS", "HTML", "Figma"],
+      projectLink: "https://github.com/jyush98/capstone",
     },
     {
-      title: "E-Commerce Platform",
-      date: "Sep 2022 - Nov 2022",
+      title: "Streaming Service",
+      date: "Jan 2023 - Mar 2023",
       description:
-        "Created a full-stack e-commerce platform using Node.js and Express with secure payment integration. Built a custom shopping cart and checkout flow, implemented user authentication, and optimized the backend for faster query performance.",
-      technologies: ["Node.js", "Express", "MongoDB", "React"],
-      projectLink: "https://github.com/my-ecommerce",
+        "Built a music streaming platform from scratch using Python and HTML, integrating essential features for playback, user interaction, and content management in a clean and user-friendly interface.",
+      technologies: ["HTML", "Python"],
+      projectLink: "https://github.com/yike-penn/cis553-hw6",
     },
     {
-      title: "Collaborative Note-Taking App",
-      date: "May 2022 - July 2022",
+      title: "Pepe's Pizza",
+      date: "Jan 2023 - Mar 2023",
       description:
-        "Built a collaborative real-time note-taking web app using WebSockets for live syncing. Integrated user accounts with Google OAuth2 and implemented markdown support for rich text formatting. Designed and deployed the application using AWS for scalability.",
-      technologies: ["React", "WebSockets", "Node.js", "AWS"],
-      projectLink: "https://github.com/my-notes-app",
+        "Developed a front-end web application leveraging React, HTML, CSS, and TypeScript, focusing on creating an interactive and seamless user experience with a modern tech stack.",
+      technologies: ["HTML", "TypeScript", "CSS", "HTML", "Figma"],
+      projectLink: "https://github.com/jyush98/sparrow-take-home",
     },
     {
-      title: "Financial Dashboard",
-      date: "Feb 2022 - April 2022",
+      title: "https://github.com/jyush98/my-portfolio",
+      date: "Jan 2023 - Mar 2023",
       description:
-        "Developed an interactive financial analytics dashboard that visualizes stock data using D3.js and Chart.js. Integrated third-party APIs for real-time data updates and created custom widgets for monitoring performance trends over time.",
-      technologies: ["D3.js", "Chart.js", "Node.js", "React"],
-      projectLink: "https://github.com/my-financial-dashboard",
+        "Designed and developed a personal website using React, TypeScript, HTML, and CSS, leveraging Vite for fast development and Netlify for deployment. The site serves as a professional portfolio, highlighting my skills and projects with an intuitive and responsive design.",
+      technologies: ["React", "TypeScript", "CSS", "HTML", "Figma"],
+      projectLink: "https://github.com/jyush98/capstone",
     },
   ];
