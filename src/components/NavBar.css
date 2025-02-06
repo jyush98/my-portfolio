@@ -52,9 +52,8 @@
       left: 0;
       width: 100%; /* Full width */
       background-color: #1B1F3A; /* Match background */
-      padding: 10px 0; /* Add spacing */
+      padding: 20px 0; /* Add spacing */
       z-index: 100; /* Ensure it's above other content */
-      padding-top: 30px;
       border-bottom: 2px solid #00aeef;
     }
 
@@ -68,7 +67,7 @@
 
     .navbar-list li {
       margin: 0;
-      font-size: 18px; /* Slightly smaller font for small screens */
+      font-size: 16px; /* Slightly smaller font for small screens */
     }
 
     :target {
