@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./Home.css";
 import HeroContent from "./hero/HeroContent";
 import NavIconLinks from "./hero/NavIconLinks";
