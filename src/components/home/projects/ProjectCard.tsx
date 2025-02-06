@@ -26,6 +26,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
       {/* Right Column: Project Title and Description */}
       <div className="project-card-content">
         <h3 className="project-card-title">{title}</h3>
+        <p className="small-project-card-date">{date}</p>
         <p className="project-card-description">{description}</p>
 
         {/* Technologies */}

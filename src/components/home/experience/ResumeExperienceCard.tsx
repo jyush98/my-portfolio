@@ -20,6 +20,7 @@ const ResumeExperienceCard: React.FC<ResumeExperienceCardProps> = ({ date, title
             <div className="resume-card-content">
                 <h3 className="resume-card-title">{title}</h3>
                 <h4 className="resume-card-company">{company}</h4>
+                <p className="small-resume-card-date">{date}</p>
                 <ul className="bulleted-description">
                     {description.map((item, index) => (
                         <li key={index}>{item}</li>

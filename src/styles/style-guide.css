@@ -265,6 +265,10 @@ body {
   font-style: normal;
 }
 
+.small-project-card-date {
+  display: none;
+}
+
 @media (max-width: 800px) {
   /* Main container padding for mobile */
   .home-container {
@@ -394,5 +398,28 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     font-size: 10px;
+  }
+
+  .project-card-date {
+    display: none;
+  }
+
+  .project-card {
+    grid-template-columns: 100%;
+  }
+
+  .resume-card-date {
+    display: none;
+  }
+
+  .resume-card {
+    grid-template-columns: 100%;
+  }
+
+  .small-project-card-date, .small-resume-card-date {
+    display: flex;
+    font-size: .7rem;
+    padding-top: 10px;
+    font-weight: bold;
   }
 }
