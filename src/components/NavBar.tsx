@@ -17,7 +17,7 @@ const NavBar: React.FC = () => {
 
     const observer = new IntersectionObserver(handleIntersection, {
       root: null,
-      threshold: 0.5, // 50% of the section must be visible to trigger
+      threshold: 0.3, // 50% of the section must be visible to trigger
     });
 
     sections.forEach((id) => {
