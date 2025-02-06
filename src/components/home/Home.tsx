@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Home.css";
 import HeroContent from "./hero/HeroContent";
 import NavIconLinks from "./hero/NavIconLinks";
@@ -7,7 +7,8 @@ import Technologies from "./technologies/Technologies";
 import Experience from "./experience/Experience";
 import Projects from "./projects/Projects";
 
-const HomeV2: React.FC = () => {
+const Home: React.FC = () => {
+
   return (
     <div className="home-container dark-background">
       <div className="left-column dark-background">
@@ -35,4 +36,4 @@ const HomeV2: React.FC = () => {
   );
 };
 
-export default HomeV2;
+export default Home;
