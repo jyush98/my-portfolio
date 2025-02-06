@@ -1,33 +1,35 @@
 .home-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     height: 100vh;
     width: 100vw;
+    background-color: #1B1F3A;
+    overflow: auto;
   }
 
   .left-column {
-    position: sticky; /* Ensures left column does not move on scroll */
+    position: sticky;
+    top: 0;
+    width: 35%; /* Adjust width as needed */
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background-color: #f4f4f4; /* Light background to distinguish */
-    padding-left: 25%;
-    padding-right: 10%;
+    padding-left: 10%;
+    padding-right: 5%;
+    overflow: hidden;
   }
-
+  
   .right-column {
+    width: 35%; /* Adjust width as needed */
+    /* height: 100vh; */
     padding: 2rem;
-    overflow-y: scroll; /* Scrollable content */
-    padding-right: 25%;
+    padding-right: 10%;
+    padding-left: 5%;
     padding-top: 0px;
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
+    /* overflow: auto; */
   }
 
-  /* to remove */
-  .right-column p{
-    color:#D3D3D3
-  }
   .section {
     margin-bottom: 2rem;
   }
