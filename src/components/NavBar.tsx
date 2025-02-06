@@ -32,13 +32,13 @@ const NavBar: React.FC = () => {
     <nav className="navbar">
       <ul className="navbar-list ibm-plex-mono-medium-italic">
         <li className={`text-orange-hover ${activeSection === "technologies" ? "active" : ""}`}>
-          <a href="#technologies">technologies</a>
+          <a href="#technologies" scroll-behavior="smooth">technologies</a>
         </li>
         <li className={`text-yellow-hover ${activeSection === "experience" ? "active" : ""}`}>
-          <a href="#experience">experience</a>
+          <a href="#experience" scroll-behavior="smooth">experience</a>
         </li>
         <li className={`text-green-hover ${activeSection === "projects" ? "active" : ""}`}>
-          <a href="#projects">projects</a>
+          <a href="#projects" scroll-behavior="smooth">projects</a>
         </li>
       </ul>
     </nav>

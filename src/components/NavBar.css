@@ -41,3 +41,36 @@
   .text-purple-hover a:hover, .text-purple-hover.active a {
     color: rgb(223 96 255);
   }
+
+  @media (max-width: 800px) {
+    .navbar {
+      display: flex; /* Make it visible */
+      flex-direction: row; /* Horizontal layout */
+      justify-content: center; /* Center links */
+      position: sticky; /* Stick to the top */
+      top: 0;
+      left: 0;
+      width: 100%; /* Full width */
+      background-color: #1B1F3A; /* Match background */
+      padding: 10px 0; /* Add spacing */
+      z-index: 100; /* Ensure it's above other content */
+      padding-top: 30px;
+    }
+
+    .navbar-list {
+      display: flex; /* Make it a row */
+      flex-direction: row; /* Ensure links are horizontal */
+      gap: 20px; /* Add spacing between links */
+      justify-content: center; /* Center links */
+      padding: 0;
+    }
+
+    .navbar-list li {
+      margin: 0;
+      font-size: 18px; /* Slightly smaller font for small screens */
+    }
+
+    :target {
+      scroll-margin-top: 40px; /* Prevents navbar from hiding sections */
+    }
+  }

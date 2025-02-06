@@ -265,7 +265,7 @@ body {
   font-style: normal;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   /* Main container padding for mobile */
   .home-container {
     display: flex;
@@ -276,13 +276,30 @@ body {
   }
 
   /* Hide navbar on iPhone screens */
-  .navbar {
+  /* .navbar {
     display: none;
-  }
+  } */
 
   .left-column, .right-column {
     padding-left: 10%;
     padding-right: 10%;
+    width: 80%;
+  }
+
+  .left-column h1 {
+    font-size: 2rem;
+  }
+
+  .left-column h2 {
+    font-size: 1rem;
+  }
+  
+  .left-column p {
+    font-size: 0.75rem;
+  }
+  
+  .left-column a {
+    font-size: 0.8rem;
   }
 
   /* Section spacing */
@@ -329,10 +346,16 @@ body {
     padding-top: 20px;
   }
 
-  .left-column, .right-column h2, h1 {
+  .right-column h2 {
+    padding-top: 90px;
+    color: #FFFFFF;
+  }
+
+  .left-column h1, h2 {
     padding-top: 20px;
     color: #FFFFFF;
   }
+
   .left-column {
     height: auto;
   }
