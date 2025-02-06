@@ -374,3 +374,25 @@ body {
     margin: 20px;
   }
 }
+
+@media (max-width: 1200px) {
+
+  /* Technologies grid layout */
+  .technologies-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1000px) {
+
+  /* Technologies grid layout */
+  .technologies-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    font-size: 10px;
+  }
+}
