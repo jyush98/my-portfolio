@@ -6,7 +6,8 @@ interface ProjectCardProps {
   title: string; // Project title
   description: string; // Brief project description
   technologies: string[]; // Technologies used in the project
-  projectLink?: string; // Optional project/demo link
+  githubLink?: string; // Optional GitHub link
+  projectLink?: string; // Optional project link
 }
 
 const ProjectCard: React.FC<ProjectCardProps> = ({
@@ -14,6 +15,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   title,
   description,
   technologies,
+  githubLink,
   projectLink,
 }) => {
   return (
@@ -38,12 +40,21 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           ))}
         </div>
 
-        {/* Project Link */}
-        {projectLink && (
-          <a href={projectLink} target="_blank" rel="noopener noreferrer" className="project-link">
-            View Project
-          </a>
-        )}
+        <div className="project-links">
+          {/* Project Link */}
+          {projectLink && (
+            <a href={projectLink} target="_blank" rel="noopener noreferrer" className="project-link">
+              View Project
+            </a>
+          )}
+          {/* GitHub Link */}
+          {githubLink && (
+            <a href={githubLink} target="_blank" rel="noopener noreferrer" className="project-link">
+              View Repo
+            </a>
+          )}
+        </div>
+
       </div>
     </div>
   );

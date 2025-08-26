@@ -12,6 +12,7 @@ const Projects: React.FC = () => {
           title={project.title}
           description={project.description}
           technologies={project.technologies}
+          githubLink={project.githubLink}
           projectLink={project.projectLink}
         />
       ))}
