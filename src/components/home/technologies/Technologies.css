@@ -12,8 +12,8 @@
   
   .technologies-grid {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 15px; /* Spacing between items */
+    grid-template-columns: repeat(7, 1fr);
+    gap: 12px; /* Spacing between items */
   }
   
   .technology-card {
@@ -28,7 +28,7 @@
   }
   
   .technology-icon {
-    font-size: 70px; /* Adjust this size as needed */
+    font-size: 50px; /* Adjust this size as needed */
     color: #D3D3D3; /* Light gray color for icons */
     margin-bottom: 10px;
     transition: color 0.3s ease;
@@ -38,7 +38,7 @@
     color: #00AEEF; /* Light blue on hover */
   }
   .technology-name {
-    font-size: 14px;
+    font-size: 16px;
     color: #D3D3D3; /* Light gray text */
   }
   

@@ -1,18 +1,62 @@
 import React from "react";
 import "./Technologies.css";
+import { 
+  FaJava, 
+  FaPython, 
+  FaJs, 
+  FaReact, 
+  FaNodeJs, 
+  FaHtml5, 
+  FaCss3Alt, 
+  FaGitAlt, 
+  FaDocker, 
+  FaDatabase 
+} from "react-icons/fa";
+import { 
+  SiTypescript, 
+  SiNextdotjs,
+  SiTailwindcss,
+  SiFastapi,
+  SiDjango,
+  SiExpress,
+  SiPostgresql,
+  SiMysql,
+  SiRedis,
+  SiStripe,
+  SiVercel
+} from "react-icons/si";
 
 const technologies = [
-    { name: "Java", iconClass: "fab fa-java" },
-    { name: "Python", iconClass: "fab fa-python" },
-    { name: "GoLang", iconClass: "fab fa-golang" },
-    { name: "SQL", iconClass: "fa-solid fa-database" },
-    { name: "React", iconClass: "fab fa-react" },
-    { name: "JavaScript", iconClass: "fab fa-js" },
-    { name: "Node.js", iconClass: "fab fa-node-js" },
-    { name: "HTML5", iconClass: "fab fa-html5" },
-    { name: "CSS3", iconClass: "fab fa-css3-alt" },
-    { name: "Git", iconClass: "fab fa-git-alt" },
-    { name: "Docker", iconClass: "fab fa-docker" },
+    // Languages
+    { name: "Python", Icon: FaPython },
+    { name: "TypeScript", Icon: SiTypescript },
+    { name: "JavaScript", Icon: FaJs },
+    { name: "SQL", Icon: FaDatabase },
+    { name: "Java", Icon: FaJava },
+    
+    // Frontend
+    { name: "React", Icon: FaReact },
+    { name: "Next.js", Icon: SiNextdotjs },
+    { name: "Tailwind CSS", Icon: SiTailwindcss },
+    { name: "HTML5", Icon: FaHtml5 },
+    { name: "CSS3", Icon: FaCss3Alt },
+    
+    // Backend
+    { name: "FastAPI", Icon: SiFastapi },
+    { name: "Node.js", Icon: FaNodeJs },
+    { name: "Django", Icon: SiDjango },
+    { name: "Express", Icon: SiExpress },
+    
+    // Databases
+    { name: "PostgreSQL", Icon: SiPostgresql },
+    { name: "MySQL", Icon: SiMysql },
+    { name: "Redis", Icon: SiRedis },
+    
+    // Tools
+    { name: "Git", Icon: FaGitAlt },
+    { name: "Docker", Icon: FaDocker },
+    { name: "Stripe", Icon: SiStripe },
+    { name: "Vercel", Icon: SiVercel },
 ];
 
 const Technologies: React.FC = () => {
@@ -21,7 +65,7 @@ const Technologies: React.FC = () => {
             <div className="technologies-grid">
                 {technologies.map((tech) => (
                     <div key={tech.name} className="technology-card">
-                        <i className={`${tech.iconClass} technology-icon`}></i>
+                        <tech.Icon className="technology-icon" />
                         <p className="technology-name">{tech.name}</p>
                     </div>
                 ))}
